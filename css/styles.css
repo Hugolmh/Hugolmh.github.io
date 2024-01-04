@@ -1,0 +1,108 @@
+* {
+    font-family: 'Montserrat';
+    /* Police par défaut */
+    box-sizing: border-box;
+    /* Les tailles de conteneurs incluent bordures et 
+                               remplissages */
+    margin: 0;
+    /* Mise à 0 des marges externes */
+    padding: 0;
+    /* Mise à 0 des marges internes */
+    text-decoration: none;
+    /* Suppression de la mise en forme habituelle des liens 
+                             (soulignement) */
+}
+
+/* Définition de la police "Montserrat" */
+@font-face {
+    font-family: "Montserrat";
+    src: url('./css/polices/Montserrat-Regular.ttf') format("truetype");
+}
+
+
+h1{
+    color: orange;
+}
+
+span.NolarkDay{
+    color: red;
+    font-family: "Montserrat"
+}
+
+.image span {
+    visibility: hidden;
+}
+
+.image img:hover + span {
+    visibility: visible;
+}
+
+
+
+* {
+    font-family: 'Montserrat';
+    /* Police par défaut */
+    box-sizing: border-box;
+    /* Les tailles de conteneurs incluent bordures et 
+                               remplissages */
+    margin: 0;
+    /* Mise à 0 des marges externes */
+    padding: 0;
+    /* Mise à 0 des marges internes */
+    text-decoration: none;
+    /* Suppression de la mise en forme habituelle des liens 
+                             (soulignement) */
+}
+
+/* Définition de la police "Montserrat" */
+@font-face {
+    font-family: "Montserrat";
+    src: url('polices/Montserrat-Regular.ttf') format("truetype");
+}
+
+body {
+    display: flex;
+    /* Ce conteneur est "flexible" */
+    justify-content: center;
+    /* Les éléments portés sont centrés à l'horizontal */
+    flex-direction: column;
+    /* Les éléments sont empilés */
+    align-items: center;
+    /* Les éléments portés sont centrés à la verticale */
+    width: 100%;
+    /* La page occupe toute la largeur */
+}
+
+header {
+    width: 916px;
+    /* Les headers et sections occupent 916px (taille de la bannière) */
+    display: flex;
+    /* Ce conteneur est "flexible" */
+    flex-direction: column;
+    /* Les éléments sont empilés */
+}
+
+
+section {
+    width: 916px;
+    /* Les sections occupent 916px (taille de la bannière) */
+}
+
+
+#carto img:nth-child(5) {
+    display: flex;
+    float: right;
+    margin-right: 10px;
+}
+#carto img:nth-child(4) {
+    display: flex;
+    float: right;
+    margin-right: 10px;
+}
+
+   
+
+
+
+
+
