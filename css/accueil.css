@@ -1,7 +1,17 @@
 #maPhoto {
     margin-right: 10px;
+    width: 10%;
+    /* Vous pouvez ajuster le pourcentage selon vos besoins */
+    height : 160px;;
+    /* Cela permet de maintenir les proportions de l'image */
+    max-width: 100%;
+    /* Cela garantit que l'image ne dépasse pas sa largeur originale */
+    display: block;
+    /* Cela résout certains problèmes liés à l'espace réservé */
+    margin: auto;
 }
-.jumbotron {    
+
+.jumbotron {
     padding-bottom: 32px;
 
 }
